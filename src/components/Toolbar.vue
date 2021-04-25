@@ -107,6 +107,7 @@
         } else if (this.keys.includes(e.key))
           this.keyAction(e.key)
 
+
       };
 
       document.addEventListener('keydown', this._keyListener.bind(this));
